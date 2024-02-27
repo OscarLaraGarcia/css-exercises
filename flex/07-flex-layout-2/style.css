@@ -1,23 +1,63 @@
 body {
+  display: flex;
+  flex-direction: column;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
   margin: 0;
   min-height: 100vh;
 }
 
 .header {
+  display: flex;
   height: 72px;
   background: darkmagenta;
   color: white;
+  font-size: xx-large;
+  align-items: center;
+  padding-left: 15px;
+}
+
+.midpage {
+  display: flex;
+  flex: 1;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+  font-size: large;
+}
+
+ul {
+  display: flex;
+  flex-direction: column;
+  list-style: none;
+  gap: 20px;
+  margin-left: -20px;
+}
+
+.cardcolumn1 {
+  display: flex;
+  flex-direction: column;
+  gap: 100px;
+}
+
+.cardcolumn2 {
+  display: flex;
+  flex-direction: column;
+  gap: 100px;
 }
 
 .footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   height: 72px;
   background: #eee;
   color: darkmagenta;
 }
 
 .sidebar {
-  width: 300px;
+  width: 500px;
   background: royalblue;
   box-sizing: border-box;
 }
@@ -26,4 +66,5 @@ body {
   border: 1px solid #eee;
   box-shadow: 2px 4px 16px rgba(0,0,0,.06);
   border-radius: 4px;
+  padding: 100px
 }
